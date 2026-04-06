@@ -109,7 +109,6 @@
         }
     },
     "suggest": {
-        "ext-ftp": "Required to use the Flysystem FTP driver.",
         "ext-gd": "Required to use Hypervel\\Http\\Testing\\FileFactory::image().",
         "ext-redis": "Required to use the Redis cache and queue drivers (^6.1).",
         "ably/ably-php": "Required to use the Ably broadcast driver (^1.0).",
