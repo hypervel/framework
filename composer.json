@@ -91,6 +91,7 @@
         "hypervel/session": "^0.4",
         "hypervel/signal": "^0.4",
         "hypervel/support": "^0.4",
+        "hypervel/testing": "^0.4",
         "hypervel/tinker": "^0.4",
         "hypervel/translation": "^0.4",
         "hypervel/validation": "^0.4",
