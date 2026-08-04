@@ -42,7 +42,6 @@
         "ext-swoole": "^6.2",
         "ext-tokenizer": "*",
         "composer-runtime-api": "^2.2",
-        "aws/aws-sdk-php": "^3.322.9",
         "hypervel/api-client": "^0.4",
         "hypervel/auth": "^0.4",
         "hypervel/broadcasting": "^0.4",
@@ -71,7 +70,6 @@
         "hypervel/http": "^0.4",
         "hypervel/http-server": "^0.4",
         "hypervel/json-schema": "^0.4",
-        "hypervel/jwt": "^0.4",
         "hypervel/log": "^0.4",
         "hypervel/macroable": "^0.4",
         "hypervel/mail": "^0.4",
@@ -96,11 +94,7 @@
         "hypervel/translation": "^0.4",
         "hypervel/validation": "^0.4",
         "hypervel/view": "^0.4",
-        "hypervel/websocket-server": "^0.4",
-        "league/flysystem": "^3.25.1",
-        "league/flysystem-aws-s3-v3": "^3.25.1",
-        "league/flysystem-path-prefixing": "^3.25.1",
-        "league/flysystem-read-only": "^3.25.1"
+        "hypervel/websocket-server": "^0.4"
     },
     "config": {
         "sort-packages": true
@@ -115,12 +109,6 @@
         "ext-redis": "Required to use the Redis cache and queue drivers (^6.1).",
         "ably/ably-php": "Required to use the Ably broadcast driver (^1.0).",
         "composer/semver": "Required to use PackageManifest::satisfies() for version constraint checking (^3.0).",
-        "hypervel/horizon": "Required for queue monitoring and management (^0.4).",
-        "hypervel/reverb": "Required for WebSocket broadcasting (^0.4).",
-        "hypervel/sanctum": "Required for API token authentication (^0.4).",
-        "hypervel/scout": "Required for full-text search (^0.4).",
-        "hypervel/socialite": "Required for OAuth authentication (^0.4).",
-        "hypervel/telescope": "Required for debugging and introspection (^0.4).",
         "league/flysystem-ftp": "Required to use the Flysystem FTP driver (^3.25.1).",
         "league/flysystem-google-cloud-storage": "Required to use the Flysystem Google Cloud Storage driver (^3.25.1).",
         "league/flysystem-sftp-v3": "Required to use the Flysystem SFTP driver (^3.25.1).",
